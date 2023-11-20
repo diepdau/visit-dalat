@@ -7,6 +7,8 @@ import {
   ArticlesPage,
   ArticleDetailsPage,
   ErrorPage,
+  Food,
+  
 } from "./pages";
 import LoginPage from "./pages/auth/LoginPage";
 import RegisterPage from "./pages/auth/RegisterPage";
@@ -26,6 +28,7 @@ function App() {
         <Route path="/destinations/:id" element={<DestinationDetailsPage />} />
         <Route path="/articles" element={<ArticlesPage />} />
         <Route path="/articles/:id" element={<ArticleDetailsPage />} />
+        <Route path="/food" element={<Food />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>

@@ -1,0 +1,67 @@
+.comment{
+    font-weight: bolder;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 166%;
+  }
+  .imageComment{
+    width: 80%;
+    height: 80%;
+    /* margin-top: 25%; */
+    margin-left: 10%;
+  }
+  .timeComment{
+    font-weight: lighter;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 2%;
+    background-color: #04AA6D;
+  }
+  
+  .button2 {
+    background:white;
+    background-color: #04AA6D;}
+
+  .text_comment{ 
+    height: 150%;
+  }
+
+  .container{
+    padding: 0 12%;
+    width: 80%;
+  }
+  textarea{
+    border:  2px solid black ;
+    
+  }
+  .inputcomment,.text_comment{
+    border:  2px solid black ;
+    height: 38px;
+    
+  }
+
+  .namecomment{
+    margin-top: 2%;
+    font-weight: bold;
+    margin-bottom: 1%;
+  }
+.rowcomment{
+    margin-left: -2%;
+}
+  .rowcomment h5{
+    font-weight: bold;
+  }
+
+  .column{
+    margin-top: 1%;
+  }

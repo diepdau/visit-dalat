@@ -22,6 +22,8 @@ import ERRORPAGE_EN from "./locales/en/errorpage.json";
 import ERRORPAGE_VI from "./locales/vi/errorpage.json";
 import USER_EN from "./locales/en/user.json";
 import USER_VI from "./locales/vi/user.json";
+import FOOD_EN from "./locales/en/foods.json";
+import FOOD_VI from "./locales/vi/foods.json";
 
 export const defaultNS = "home" as const;
 
@@ -38,6 +40,7 @@ export const resources = {
     register: REGISTER_EN,
     errorpage: ERRORPAGE_EN,
     user: USER_EN,
+    food: FOOD_EN,
   },
   vi: {
     nav: NAV_VI,
@@ -51,6 +54,7 @@ export const resources = {
     register: REGISTER_VI,
     errorpage: ERRORPAGE_VI,
     user: USER_VI,
+    food:FOOD_VI,
   },
 } as const;
 
@@ -69,6 +73,7 @@ i18n.use(initReactI18next).init({
     "register",
     "errorpage",
     "user",
+    "food",
   ],
   fallbackLng: "vi",
   defaultNS,

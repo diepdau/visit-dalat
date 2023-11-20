@@ -1,0 +1,55 @@
+
+
+.input_search {
+    padding:3.4vh 0 2vh 2vh;
+    width: 25%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background: white;
+    margin-left: 35%;
+}
+  .button_search{
+    background: #1D764A ;
+    padding: 2vh 0;
+    
+    width: 5%;
+    color: white;
+    
+    .search_kitchen{
+      font-size: 4vh;
+      /* margin-bottom: 2px; */
+      align-items: center;
+    }
+   
+  }
+  .p_search {
+    text-align: center; 
+    font-size: 1.2em; 
+    margin-top: -10px;
+    margin-bottom: 50px; 
+  }
+  .food_section2{
+    margin: 4% 0;
+    .p_search{
+      text-align: left;
+      margin-left: 16vh;
+      font-weight: bold;
+      margin-bottom: 3vh;
+    }
+ 
+  }
+
+  @media (max-width: 700px) {
+
+    .input_search {
+      width: 70%; 
+      margin-left: 0px;
+    }
+  
+    .button_search {
+      width: 70%; 
+      margin-left: 0px;
+    }
+  
+
+  }
+

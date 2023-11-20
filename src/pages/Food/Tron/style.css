@@ -1,0 +1,29 @@
+.textTr  p{
+    margin: 4vh -10px 0px 0px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.radidusImages{
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;  
+    margin-top: 10%;
+    cursor: pointer;
+    
+}
+.rowTr{
+    margin-left:-3%;
+}
+.custorTitle{
+    cursor: pointer;
+}
+.colTr{
+    display: flex;
+    gap:2%
+}
+.containerTr{
+    padding: 0;
+}
+
+

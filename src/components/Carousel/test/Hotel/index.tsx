@@ -2,7 +2,7 @@
 import React from "react";
 import StarRatings from "react-star-ratings";
 import styled from "styled-components";
-import { Container,ImageContainer, Image } from "./styles";
+import { Container,ImageContainer, Image, Content } from "./styles";
 interface IContainerProps {
   star?: number;
 }
@@ -12,23 +12,24 @@ const Title = styled.a<IContainerProps>`
   cursor: pointer;
   color: black;
   font-size: ${({ star }: IContainerProps) => (star !== undefined ? "2xl" : "xl")};
-  font-weight: ${({ star }: IContainerProps) => (star !== undefined ? "bold" : "normal")};
+  font-weight: ${({ star }: IContainerProps) => (star !== undefined ? "bold" : "bold")};
 `;
 
 interface IHotelCardProps {
   imgSrc: string;
   title: string;
   star?: number;
-  width?:number;
+  content?:string;
 }
 
-const HotelCard: React.FC<IHotelCardProps> = ({ imgSrc, title, star ,width}) => {
+const HotelCardTest: React.FC<IHotelCardProps> = ({ imgSrc, title, star,content}) => {
   return (
-    <Container star={star}style={{ width: `${width}px` }}>
+    <Container star={star}>
       <ImageContainer>
         <Image src={imgSrc} alt="hotel" loading="lazy" />
       </ImageContainer>
       <Title star={star}>{title}</Title>
+      <Content star={star}>{content}</Content>
       {star !== undefined && (
         <StarRatings
           rating={star}
@@ -41,4 +42,4 @@ const HotelCard: React.FC<IHotelCardProps> = ({ imgSrc, title, star ,width}) => 
   );
 };
 
-export default HotelCard;
+export default HotelCardTest;

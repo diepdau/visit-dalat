@@ -4,6 +4,7 @@ import DestinationDetailsPage from "./DestinationDetailsPage";
 import ArticlesPage from "./ArticlesPage";
 import ArticleDetailsPage from "./ArticleDetailsPage";
 import ErrorPage from "./ErrorPage";
+import Food from "./Food";
 
 export {
   HomePage,
@@ -12,4 +13,5 @@ export {
   ArticlesPage,
   ArticleDetailsPage,
   ErrorPage,
+  Food,
 };

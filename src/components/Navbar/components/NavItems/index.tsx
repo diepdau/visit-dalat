@@ -9,8 +9,8 @@ const NavItems = () => {
     <ListContainer>
       <NavItem to="/" text={t("home")} />
       <NavItem to="/destinations" text={t("destinations")} />
-      {/* <NavItem to="/" text="Hoạt động" />
-      <NavItem to="/" text="Ẩm thực" /> */}
+      {/* <NavItem to="/" text="Hoạt động" /> */}
+      <NavItem to="/food" text="Ẩm thực" />
       <NavItem to="/articles" text={t("articles")} />
     </ListContainer>
   );
